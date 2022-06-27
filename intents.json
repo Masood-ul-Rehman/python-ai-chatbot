@@ -1,0 +1,60 @@
+{
+  "intents": [
+            {"tag": "List in Python",
+         "patterns": ["List in python","What is list in python","Python list"],
+         "responses": ["A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements. Each element or value that is inside of a list is called an item. Just as strings are defined as characters between quotes, lists are defined by having values between square brackets [ ].\n\nLists are great to use when you want to work with many related values. They enable you to keep data together that belongs together, condense your code, and perform the same methods and operations on multiple values at once. "]
+        },
+            {"tag": "Loop in Python",
+         "patterns": ["Loop in python","Loops","Loop","Python loop"],
+              "responses": ["A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).\n\nThis is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.\n\nWith the for loop we can execute a set of statements, once for each item in a list, tuple, set etc."]
+        },        {"tag": "Python Tuples",
+         "patterns": ["Python tuples","Tuples"],
+            "responses": ["A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets."]
+
+        },
+         { "tag": "Python sets",
+           "patterns": ["Sets","Python sets"],
+           "responses": ["A set is a collection which is unordered and un indexed. In Python sets are written with curly brackets.","A set is a collection which is unordered and unindexed."]
+
+        },
+        {"tag": "Python Dictionaries",
+         "patterns": ["Python dictionaries","Python dictionary"],
+         "responses": ["A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values."]
+        },
+        {"tag": "greeting",
+          "Suggestion": ["Greet bot","Say hello"],
+         "patterns": ["Hi", "How are you", "Hello", "Good day", "Whats up","Hello chatbot"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+          "Suggestion": ["Greet Back"],
+         "patterns": ["Cya", "See you later", "Goodbye", "I am leaving", "Have a good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+        {"tag": "age",
+         "patterns": ["How old", "How old is pybot", "What is your age", "How old are you", "Age"],
+         "responses": ["I am 19 years old!", "19 years young!","19 years"]
+        },
+        {"tag": "name",
+         "patterns": ["What is your name","Whats your name?","Who are you","Who you"],
+         "responses": ["You can call me ChatBot.", "I'm ChatBot!", "I'm ChatBot aka Chaty."]
+        },
+        {"tag": "written",
+         "patterns": ["In which language you are written", "Which language", "What language you are written", "Which language you are written"],
+         "responses": ["I am written in python", "Python!","In Python"]
+        },
+        {"tag": "do",
+         "patterns": ["What can you do", "What you can do", "What are your functions","Which functions you can perform"],
+         "responses": ["I can teach you Python ","You can learn python from me","I Know Python well you can learn it from me","I know python language"]
+        },
+        {"tag": "About Python",
+         "patterns": ["Tell me about python","What is python","Python"],
+         "responses": ["Python is an interpreted, high-level, general-purpose programming language.Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects."]
+        },
+        {"tag": "Data types",
+         "patterns": ["What are data types in python","Data types in python","Data types"],
+         "responses": ["Data types are the classification or categorization of data items. Data types represent a kind of value which determines what operations can be performed on that data. Numeric, non-numeric and Boolean (true/false) data are the most used data types."]
+        }
+
+  ]
+}
